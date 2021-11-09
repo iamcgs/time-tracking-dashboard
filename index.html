@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <main>
+        <div class="container">
+          <div class="profile-card">
+            <div class="profile-info">
+              <div class="profile-img">
+                <img src="/images/image-jeremy.png" alt="Jeremy Robson" />
+              </div>
+              <div class="profile-report">
+                <p class="report">Report for</p>
+                <h2 class="name">Jeremy Robson</h2>
+              </div>
+            </div>
+            <div class="stats-menu">
+              <ul id="mmenu">
+                <li id="daily">Daily</li>
+                <li id="weekly" class="active-menu">Weekly</li>
+                <li id="monthly">Monthly</li>
+              </ul>
+            </div>
+          </div>
+          <!-- JSON data -->
+          <div id="output"></div>
+        </div>
+      </main>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/iamcgs">Carla</a>.
+      </footer>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
